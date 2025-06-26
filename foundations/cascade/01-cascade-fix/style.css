@@ -1,27 +1,28 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/*grouping selectors*/
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 900;
 }
-
+/* targeting para class */
 .para {
   font-size: 22px;
 }
+/* targeting small-para class */
 .small-para {
   font-size: 14px;
   
 }
-
+/* targeting  confirm button id */
 #confirm-button {
   background: green;
   color: white;
   font-weight: bold;
 } 
-
+/* targeting button class */
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
@@ -29,14 +30,16 @@ body {
 }
 
 
-
+/* targeting the div that has text class */
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
 }
+/* targeting the div that has child class */
+/* performing decendent combinator*/
 div .child {
-  color: rgb(0, 0, 0);
+  
   font-weight: 800;
   font-size: 14px;
 }
