@@ -1,0 +1,22 @@
+.one,
+.two,
+.three{
+    background-color: rgba(229, 12, 84, 0.51);
+    font-family: Verdana,"DejaVu Sans","sans-serif";
+}
+
+#one{
+    font-size: 36px;
+    color: rgb(0, 0,255);
+}
+
+.two{
+    font-size: 24px;
+    
+}
+
+#two{
+    background-color: rgba(32, 195, 32, 0.61);
+    font-size: 24px;
+    font-weight: bold;
+}
